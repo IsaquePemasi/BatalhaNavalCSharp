@@ -1,0 +1,14 @@
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\bin\Debug\net6.0\Batalha.exe
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\bin\Debug\net6.0\Batalha.deps.json
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\bin\Debug\net6.0\Batalha.runtimeconfig.json
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\bin\Debug\net6.0\Batalha.dll
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\bin\Debug\net6.0\Batalha.pdb
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\obj\Debug\net6.0\Batalha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\obj\Debug\net6.0\Batalha.AssemblyInfoInputs.cache
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\obj\Debug\net6.0\Batalha.AssemblyInfo.cs
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\obj\Debug\net6.0\Batalha.csproj.CoreCompileInputs.cache
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\obj\Debug\net6.0\Batalha.dll
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\obj\Debug\net6.0\refint\Batalha.dll
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\obj\Debug\net6.0\Batalha.pdb
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\obj\Debug\net6.0\Batalha.genruntimeconfig.cache
+C:\Users\Isaque\Desktop\BatalhaNavalCSharp\Batalha\obj\Debug\net6.0\ref\Batalha.dll
