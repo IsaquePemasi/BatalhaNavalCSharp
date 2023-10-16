@@ -65,6 +65,7 @@ namespace Batalha
                 Console.WriteLine("██║   ██║██║   ██║██║     ██╔══╝  ██║   ██║    ██║  ██║██╔══╝      ██║     ██╔══╝    ╚██╔╝     ██║   ██╔══╝  ");
                 Console.WriteLine("╚██████╔╝╚██████╔╝███████╗██║     ╚██████╔╝    ██████╔╝███████╗    ███████╗███████╗   ██║      ██║   ███████╗");
                 Console.WriteLine(" ╚═════╝  ╚═════╝ ╚══════╝╚═╝      ╚═════╝     ╚═════╝ ╚══════╝    ╚══════╝╚══════╝   ╚═╝      ╚═╝   ╚══════╝");
+                Console.WriteLine("");
                 Thread.Sleep(4000);
                 Console.Clear();
                 //descrição da batalha
@@ -115,21 +116,51 @@ namespace Batalha
                 while (barcosJogador1 > 0 && barcosJogador2 > 0)
                 {
                     Console.Clear();
-                    Console.WriteLine("Jogador 1:");
+                    Console.WriteLine("                                                       Presidente Franklin Roosevelt (Estados Unidos):");
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.WriteLine("                                                              ______________________  ");
+                    Console.WriteLine("                                                             |XXXXXXX|==============| ");
+                    Console.WriteLine("                                                             |XXXXXXX|==============| ");
+                    Console.WriteLine("                                                             |XXXXXXX|==============| ");
+                    Console.WriteLine("                                                             |======================| ");
+                    Console.WriteLine("                                                             |======================| ");
+                    Console.WriteLine("                                                             |======================| ");
+                    Console.WriteLine("");
                     MostrarTabuleiro(tabuleiroJogador1);
-                    Console.WriteLine("Placar: Jogador 1 - {0} | Jogador 2 - {1}", barcosJogador1, barcosJogador2);
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.WriteLine("                            Presidente Franklin Roosevelt (Estados Unidos) tem {0} navios | Imperador Hirohito (Japão) tem {1} navios ", barcosJogador1, barcosJogador2);
+                    Console.WriteLine("");
+                    Console.WriteLine("");
                     FazerJogada(tabuleiroJogador2, ref barcosJogador2);
 
                     Console.Clear();
-                    Console.WriteLine("Jogador 2:");
+                    Console.WriteLine("                                                            Imperador Hirohito (Japão):");
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.WriteLine("                                                               ______________________");
+                    Console.WriteLine("                                                             |                      |");
+                    Console.WriteLine("                                                             |        _----_        |");
+                    Console.WriteLine("                                                             |       (      )       |");
+                    Console.WriteLine("                                                             |       (      )       |");
+                    Console.WriteLine("                                                             |        ~----~        |");
+                    Console.WriteLine("                                                             |                      |");
+                    Console.WriteLine("");
                     MostrarTabuleiro(tabuleiroJogador2);
-                    Console.WriteLine("Placar: Jogador 1 - {0} | Jogador 2 - {1}", barcosJogador1, barcosJogador2);
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+                    Console.WriteLine("                            Presidente Franklin Roosevelt (Estados Unidos) tem {0} navios | Imperador Hirohito (Japão) tem {1} navios ", barcosJogador1, barcosJogador2);
+                    Console.WriteLine("");
+                    Console.WriteLine("");
                     FazerJogada(tabuleiroJogador1, ref barcosJogador1);
                 }
 
                 Console.Clear();
                 Console.WriteLine("Jogo terminado!");
-                Console.WriteLine("Placar final: Jogador 1 - {0} | Jogador 2 - {1}", barcosJogador1, barcosJogador2);
+                Console.WriteLine("Placar final: Presidente Franklin Roosevelt (Estados Unidos) - {0} | Imperador Hirohito (Japão) - {1}", barcosJogador1, barcosJogador2);
                 Console.WriteLine("Pressione qualquer tecla para reiniciar...");
                 Console.ReadKey();
                 Main(args);
