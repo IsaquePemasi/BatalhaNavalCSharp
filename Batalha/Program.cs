@@ -189,7 +189,9 @@ namespace Batalha
                 Console.WriteLine("Placar final: Presidente Franklin Roosevelt (Estados Unidos) - {0} | Imperador Hirohito (Japão) - {1}", barcosJogador1, barcosJogador2);
                 Console.WriteLine("Pressione qualquer tecla para reiniciar...");
                 Console.ReadKey();
+                Console.Clear();
                 Main(args);
+
             }
 
             static void InicializarTabuleiros()
