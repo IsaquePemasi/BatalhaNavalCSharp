@@ -281,11 +281,9 @@ namespace Batalha
                     Console.WriteLine("Jogador acertou a água.");
                     tabuleiro[linha, coluna] = 'O';
                 }
-
                 Console.WriteLine("Pressione qualquer tecla para continuar...");
                 Console.ReadKey();
             }
         }
-
     }
 }
