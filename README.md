@@ -1,5 +1,5 @@
 # Desenvolva um jogo da BATALHA NAVAL utilizando matrizes em C#. 
-
+Link do vídeo no Youtube - https://www.youtube.com/watch?v=TMmNTUgIo2s
     1) O tabuleiro da batalha naval deve ser 10X10 para cada jogador.
     2) O programa deve espalhar aleatóriamente (randomicamente) 5 barcos para cada jogador,
        ocultando-os mesmo aos seus joadores.
