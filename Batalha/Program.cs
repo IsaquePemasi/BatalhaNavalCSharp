@@ -8,7 +8,6 @@ namespace Batalha
 {
     internal class Program
     {
-
  class BatalhaNaval
         {
             static char[,] tabuleiroJogador1 = new char[10, 10];
@@ -34,6 +33,8 @@ namespace Batalha
                 Console.WriteLine("██████╔╝██║  ██║   ██║   ██║  ██║███████╗██║  ██║██║  ██║    ██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║███████╗             ");
                 Console.WriteLine("╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝╚══════╝             ");
                 Console.WriteLine("                                                                                                                     ");
+                //intervalo
+                Thread.Sleep(2000);
                 Console.WriteLine("    ██████╗ ███████╗    ████████╗ ██████╗ ██████╗  ██████╗ ███████╗                                                  ");
                 Console.WriteLine("    ██╔══██╗██╔════╝    ╚══██╔══╝██╔═══██╗██╔══██╗██╔═══██╗██╔════╝                                                  ");
                 Console.WriteLine("    ██║  ██║█████╗         ██║   ██║   ██║██║  ██║██║   ██║███████╗                                                  ");
@@ -47,7 +48,7 @@ namespace Batalha
                 Console.WriteLine("██║   ██║╚════██║       ██║   ██╔══╝  ██║╚██╔╝██║██╔═══╝ ██║   ██║╚════██║  ▀▀══╝                                    ");
                 Console.WriteLine("╚██████╔╝███████║       ██║   ███████╗██║ ╚═╝ ██║██║     ╚██████╔╝███████║  ██╗                                      ");
                 Console.WriteLine(" ╚═════╝ ╚══════╝       ╚═╝   ╚══════╝╚═╝     ╚═╝╚═╝      ╚═════╝ ╚══════╝  ╚═╝                                      ");
-                Thread.Sleep(5000);
+                Thread.Sleep(3000);
                 Console.Clear();
                 //Nome da batalha
                 Console.WriteLine("");
@@ -59,6 +60,7 @@ namespace Batalha
                 Console.WriteLine("╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═════╝  ╚═════╝                                ");
                 Console.WriteLine("                                                                                                             ");
                 Console.WriteLine("");
+
                 Console.WriteLine(" ██████╗  ██████╗ ██╗     ███████╗ ██████╗     ██████╗ ███████╗    ██╗     ███████╗██╗   ██╗████████╗███████╗");
                 Console.WriteLine("██╔════╝ ██╔═══██╗██║     ██╔════╝██╔═══██╗    ██╔══██╗██╔════╝    ██║     ██╔════╝╚██╗ ██╔╝╚══██╔══╝██╔════╝");
                 Console.WriteLine("██║  ███╗██║   ██║██║     █████╗  ██║   ██║    ██║  ██║█████╗      ██║     █████╗   ╚████╔╝    ██║   █████╗  ");
@@ -66,6 +68,7 @@ namespace Batalha
                 Console.WriteLine("╚██████╔╝╚██████╔╝███████╗██║     ╚██████╔╝    ██████╔╝███████╗    ███████╗███████╗   ██║      ██║   ███████╗");
                 Console.WriteLine(" ╚═════╝  ╚═════╝ ╚══════╝╚═╝      ╚═════╝     ╚═════╝ ╚══════╝    ╚══════╝╚══════╝   ╚═╝      ╚═╝   ╚══════╝");
                 Console.WriteLine("");
+                //intervalo
                 Thread.Sleep(4000);
                 Console.Clear();
                 //descrição da batalha
@@ -85,6 +88,8 @@ namespace Batalha
                 Console.WriteLine("██║ ╚████║╚██████╔╝██║  ██║   ██║   ███████╗    ██║  ██║██║ ╚═╝ ██║███████╗██║  ██║██║╚██████╗██║  ██║██║ ╚████║╚██████╔╝███████║     ");
                 Console.WriteLine("╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝    ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝     ");
                 Console.WriteLine("                                                                                                                                      ");
+                //intervalo
+                Thread.Sleep(2000);
                 Console.WriteLine("███████╗     ██████╗ ███████╗         ██╗ █████╗ ██████╗  ██████╗ ███╗   ██╗███████╗███████╗███████╗███████╗                          ");
                 Console.WriteLine("██╔════╝    ██╔═══██╗██╔════╝         ██║██╔══██╗██╔══██╗██╔═══██╗████╗  ██║██╔════╝██╔════╝██╔════╝██╔════╝                          ");
                 Console.WriteLine("█████╗      ██║   ██║███████╗         ██║███████║██████╔╝██║   ██║██╔██╗ ██║█████╗  ███████╗█████╗  ███████╗                          ");
@@ -92,6 +97,8 @@ namespace Batalha
                 Console.WriteLine("███████╗    ╚██████╔╝███████║    ╚█████╔╝██║  ██║██║     ╚██████╔╝██║ ╚████║███████╗███████║███████╗███████║▄█╗                       ");
                 Console.WriteLine("╚══════╝     ╚═════╝ ╚══════╝     ╚════╝ ╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚══════╝╚══════╝╚══════╝╚═╝                       ");
                 Console.WriteLine("                                                                                                                                      ");
+                //intervalo
+                Thread.Sleep(2000);
                 Console.WriteLine("███████╗███╗   ███╗     ██╗ █████╗ ██╗  ██╗██╗  ██╗       ██████╗ ██╗   ██╗██████╗  █████╗ ███╗   ██╗████████╗███████╗     █████╗     ");
                 Console.WriteLine("██╔════╝████╗ ████║    ███║██╔══██╗██║  ██║██║  ██║       ██╔══██╗██║   ██║██╔══██╗██╔══██╗████╗  ██║╚══██╔══╝██╔════╝    ██╔══██╗    ");
                 Console.WriteLine("█████╗  ██╔████╔██║    ╚██║╚██████║███████║███████║       ██║  ██║██║   ██║██████╔╝███████║██╔██╗ ██║   ██║   █████╗      ███████║    ");
@@ -106,13 +113,13 @@ namespace Batalha
                 Console.WriteLine("███████║███████╗╚██████╔╝╚██████╔╝██║ ╚████║██████╔╝██║  ██║    ╚██████╔╝╚██████╔╝███████╗██║  ██║██║  ██║██║  ██║                    ");
                 Console.WriteLine("╚══════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝     ╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝                    ");
                 Console.WriteLine("                                                                                                                                      ");
-
-                Thread.Sleep(6000);
+                //intervalo final, para o tabuleiro do jogador
+                Thread.Sleep(3000);
                 Console.Clear();
                 InicializarTabuleiros();
                 DistribuirBarcos(tabuleiroJogador1);
                 DistribuirBarcos(tabuleiroJogador2);
-
+                //batalha naval
                 while (barcosJogador1 > 0 && barcosJogador2 > 0)
                 {
                     Console.Clear();
@@ -127,11 +134,13 @@ namespace Batalha
                     Console.WriteLine("                                                             |======================| ");
                     Console.WriteLine("                                                             |======================| ");
                     Console.WriteLine("");
+                    Console.WriteLine("---------------------------------------------------------------------------------------------------------------------------------------------------");
                     MostrarTabuleiro(tabuleiroJogador1);
                     Console.WriteLine("");
                     Console.WriteLine("");
                     Console.WriteLine("");
-                    Console.WriteLine("                            Presidente Franklin Roosevelt (Estados Unidos) tem {0} navios | Imperador Hirohito (Japão) tem {1} navios ", barcosJogador1, barcosJogador2);
+                    Console.WriteLine("---------------------------------------------------------------------------------------------------------------------------------------------------");
+                    Console.WriteLine("                       Presidente Franklin Roosevelt (Estados Unidos) tem {0} navios | Imperador Hirohito (Japão) tem {1} navios ", barcosJogador1, barcosJogador2);
                     Console.WriteLine("");
                     Console.WriteLine("");
                     FazerJogada(tabuleiroJogador2, ref barcosJogador2);
@@ -148,16 +157,18 @@ namespace Batalha
                     Console.WriteLine("                                                             |        ~----~        |");
                     Console.WriteLine("                                                             |                      |");
                     Console.WriteLine("");
+                    Console.WriteLine("---------------------------------------------------------------------------------------------------------------------------------------------------");
                     MostrarTabuleiro(tabuleiroJogador2);
                     Console.WriteLine("");
                     Console.WriteLine("");
                     Console.WriteLine("");
-                    Console.WriteLine("                            Presidente Franklin Roosevelt (Estados Unidos) tem {0} navios | Imperador Hirohito (Japão) tem {1} navios ", barcosJogador1, barcosJogador2);
+                    Console.WriteLine("---------------------------------------------------------------------------------------------------------------------------------------------------");
+                    Console.WriteLine("                       Presidente Franklin Roosevelt (Estados Unidos) tem {0} navios | Imperador Hirohito (Japão) tem {1} navios ", barcosJogador1, barcosJogador2);
                     Console.WriteLine("");
                     Console.WriteLine("");
                     FazerJogada(tabuleiroJogador1, ref barcosJogador1);
                 }
-
+                //fim de jogo
                 Console.Clear();
                 Console.WriteLine("Jogo terminado!");
                 Console.WriteLine("");
@@ -190,10 +201,10 @@ namespace Batalha
                 Console.WriteLine("Pressione qualquer tecla para reiniciar...");
                 Console.ReadKey();
                 Console.Clear();
+                //reinicialização
                 Main(args);
-
             }
-
+            //inicializarTabuleiros
             static void InicializarTabuleiros()
             {
                 for (int i = 0; i < 10; i++)
@@ -205,7 +216,7 @@ namespace Batalha
                     }
                 }
             }
-
+            //DistribuirBarcos
             static void DistribuirBarcos(char[,] tabuleiro)
             {
                 for (int i = 0; i < 5; i++)
@@ -219,7 +230,7 @@ namespace Batalha
                     tabuleiro[x, y] = 'X';
                 }
             }
-
+            //MostrarTabuleiro
             static void MostrarTabuleiro(char[,] tabuleiro)
             {
                 Console.WriteLine("  A B C D E F G H I J");
@@ -233,7 +244,7 @@ namespace Batalha
                     Console.WriteLine();
                 }
             }
-
+            //FazerJogada
             static void FazerJogada(char[,] tabuleiro, ref int barcosRestantes)
             {
                 Console.Write("Informe a jogada (linha coluna): ");
