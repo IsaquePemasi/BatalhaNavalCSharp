@@ -9,3 +9,7 @@
     6) Após cada jogada, apresente o tabuleiro com as jogadas representadas por "X" caso tenha acertado o barco ou "O" caso tenha acertado água.
     7) Abaixo do tabuleiro, mostre o placar do jogo, ou seja, quantos barcos cada adversário acertou. 
     8) Possilibilite que o jogo seja reinicializado sem a necessidade de reiniciar o programa. 
+
+<img src = "/img/Captura de tela 2023-05-02 134911.png" alt = "acessando">
+<h2 align="center">Autor</h2>
+<a href="https://github.com/IsaquePemasi/"><img src="https://avatars.githubusercontent.com/u/76749511?v=4" width=115></a>
